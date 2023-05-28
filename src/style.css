@@ -6,6 +6,9 @@
     font-family: Geneva, Tahoma, sans-serif;;
     scroll-behavior: smooth;
 }
+body{
+    
+}
 .row{
     margin-left: -8px;
     margin-right: -8px;
@@ -27,9 +30,10 @@
     position: relative;
     justify-content: space-evenly;
 }
-#hearder-logo
+.hearder-logo
 {
     display: block;
+    cursor: pointer;
 }
 .logo--img {
     padding: 5 0 5;
