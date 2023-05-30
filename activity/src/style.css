@@ -11,13 +11,11 @@
     margin-right: -8px;
 }
 .col{
-    display: block;
     float: left;
-    margin: 1% 0 1% 1.6%;
+    padding-left: 8px;
+    padding-right: 8px;
 }
-.col:first-child{
-    margin-left: 0;
-}
+
 .col-half{
     -webkit-box-flex: 0;
     width: 50%;
