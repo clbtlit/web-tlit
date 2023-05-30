@@ -3,20 +3,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/style.css">
+    <!-- css slick slider -->
     <link
         rel="stylesheet"
         type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-      />
-      <link rel="stylesheet" href="./src/main.js">
-    <link rel="stylesheet" href="./fonts/fontawesome/fontawesome-free/css/all.css">
-    <title>TLIT</title>
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- end css slick slider -->
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="/web-tlit/fonts/fontawesome/fontawesome-free/css/all.css">
+    <title>TLIT - Hoat Dong</title>
 </head>
 <body>
+    <!-- header -->
     <div class="header">
         <div class="hearder-logo">
-            <img class="logo--img" src="./picture/tCHu/logo_cln.png" alt="logo">
+            <img class="logo--img" src="/web-tlit/picture/tCHu/logo_cln.png" alt="logo">
         </div>
         <div id="nav">
             <div class="nav-list btn">
@@ -30,56 +31,38 @@
 
         </div>
     </div>
-    <div class="image-slider">
-        <div class="image-item">
-            <div class="image">
-                <img src="./picture/tCHu/slider1.jpg" alt="Ảnh Clb">
-            </div>
-        </div>
-        
-        <div class="image-item">
-            <div class="image">
-                <img src="./picture/tCHu/slider2.jpg" alt="Ảnh Clb">
-            </div>
-        </div>
-        
-        <div class="image-item">
-            <div class="image">
-                <img src="./picture/tCHu/slider3.jpg" alt="Ảnh Clb">
-            </div>
-        </div>
-       
-        <div class="image-item">
-            <div class="image">
-                <img src="./picture/tCHu/slider4.jpg" alt="Ảnh Clb">
-            </div>
-        </div>
-        
-    </div>
-    <script
-        type="text/javascript"
-        src="https://code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-        type="text/javascript"
-        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script
-        type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="./src/main.js">
+    <!-- end header -->
+    <div class ="content">
+        <div class="section-1">
+            <div class="section-slider col col-half">
 
-    </script>
-
-    <div class="clb">
-
+                <div class="slider-image">
+                    <img src="./assets/picture/codebattle2018/1.JPG" alt="">
+                </div>
+                <div class="slider-image">
+                    <img src="./assets/picture/codebattle2018/2.JPG" alt="">
+                </div>
+                <div class="slider-image">
+                    <img src="./assets/picture/codebattle2018/3.JPG" alt="">
+                </div>
+                <div class="slider-image">
+                    <img src="./assets/picture/codebattle2018/4.JPG" alt="">
+                </div>
+                <div class="slider-image">
+                    <img src="./assets/picture/codebattle2018/5.JPG" alt="">
+                </div>
+                <div class="slider-image">
+                    <img src="./assets/picture/codebattle2018/6.JPG" alt="">
+                </div>
+            </div>
+            <div class="section-text col col-half">
+                <h2 class ="section-title">Code Battle 2018</h2>
+                <p class = "section-subtitle">Noi dung bla bla</p>
+            </div>
+        </div>
     </div>
 
-    <div class="ban">
-
-    </div>
-    
+    <!-- footer -->
     <div class="footer">
         <div class="container">
             <div class="footer__content">
@@ -91,7 +74,7 @@
                         <ul class="footer-list">
                             <li><a href="#">Trang Chủ</a></li>
                             <li><a href="#member">Thành Viên</a></li>
-                            <li><a href="./activity/index.html">Hoạt Động</a></li>
+                            <li><a href="#activity">Hoạt Động</a></li>
                             <li><a href="#product">Sản Phẩm Câu Lạc Bộ</a></li>
                         </ul>
                     </div>
@@ -140,5 +123,19 @@
             </div>
         </div>
     </div>
+    <!-- end footer -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./src/main.js"></script>
 </body>
 </html>

@@ -6,17 +6,17 @@
     font-family: Geneva, Tahoma, sans-serif;;
     scroll-behavior: smooth;
 }
-body{
-    
-}
 .row{
     margin-left: -8px;
     margin-right: -8px;
 }
 .col{
+    display: block;
     float: left;
-    padding-left: 8px;
-    padding-right: 8px;
+    margin: 1% 0 1% 1.6%;
+}
+.col:first-child{
+    margin-left: 0;
 }
 .col-half{
     -webkit-box-flex: 0;
@@ -30,10 +30,9 @@ body{
     position: relative;
     justify-content: space-evenly;
 }
-.hearder-logo
+#hearder-logo
 {
     display: block;
-    cursor: pointer;
 }
 .logo--img {
     padding: 5 0 5;
@@ -74,40 +73,9 @@ body{
 }
 
 /* begin slider */
-.image{
-    height: 650px;
-    margin-bottom: 20px
-}
-.image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.image-title{
-    font-size: 20px;
-    color: #8e8fb5
-}
-.slick-prev {
-    left: 0;
-}
-.slick-next {
-    right: 0;
-}
-.stick-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border: none;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    line-height: 1;
-    z-index: 5;
-    transition: all 0.2s linear;
-    cursor: pointer;
+.slider
+{
+
 }
 
 /* bedin clb */
@@ -235,4 +203,47 @@ body{
 }
 .footer__social a:not(:last-child) {
     margin-right: 25px;
+}
+/* content */
+.content{
+    height: auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+.section-1{
+    height: auto;
+    background-color: #f6f6f6;
+    display: flex;
+    margin-top: 100px;
+}
+.section-slider{
+    /* position: relative; */
+    padding:30px;
+}
+.slider-image{
+    height: auto;
+    width: 50%;
+}
+.slider-image img{
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.section-text{
+    padding: 70px 50px 30px 20px;
+    line-height: 1.6;
+}
+.prev-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:0;
+    font-size: 28px;
+}
+.next-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right:0;
+    font-size: 28px;
 }
