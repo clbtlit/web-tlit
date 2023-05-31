@@ -6,17 +6,17 @@
     font-family: Geneva, Tahoma, sans-serif;;
     scroll-behavior: smooth;
 }
+body{
+    
+}
 .row{
     margin-left: -8px;
     margin-right: -8px;
 }
 .col{
-    display: block;
     float: left;
-    margin: 1% 0 1% 1.6%;
-}
-.col:first-child{
-    margin-left: 0;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .col-half{
     -webkit-box-flex: 0;
@@ -30,9 +30,10 @@
     position: relative;
     justify-content: space-evenly;
 }
-#hearder-logo
+.hearder-logo
 {
     display: block;
+    cursor: pointer;
 }
 .logo--img {
     padding: 5 0 5;
@@ -46,7 +47,7 @@
 
 #nav .list> li{
     display: inline-block;
-    padding:20px 0;
+    padding:30px 20px ;
     position: relative;
 }
 #nav .list> li> a{
@@ -73,38 +74,51 @@
 }
 
 /* begin slider */
-/* .slider
-{
-
+/* .image{
+    height: 650px;
+    margin-bottom: 20px
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-title{
+    font-size: 20px;
+    color: #8e8fb5
+} */
+.slick-prev {
+    left: 0;
+}
+.slick-next {
+    right: 0;
+}
+.stick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 1;
+    z-index: 5;
+    transition: all 0.2s linear;
+    cursor: pointer;
 }
 
 /* bedin clb */
-/* .clb {} */
+.clb {
 
 
-
+}
 /* begin ban */
-/* .ban {
+.ban {
 
-} */ */
-/* begon footer */
-.footer {
-    position: relative;
-    z-index: 5;
-    background-color: #000a3d;
-    font-size: 15px;
-    height: auto;
 }
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: 135px;
-    margin-right: 135px;
-}
-/* .content {
-    height: 300px;
-    width: 100%;
-} */
 .image img {
     height: 200px;
     width: 100%;
@@ -113,7 +127,7 @@
 .image {
     background-color: white;
 }
-
+/* begon footer */
 .footer {
     position: relative;
     z-index: 5;
@@ -230,15 +244,3 @@
 .footer__social a:not(:last-child) {
     margin-right: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
