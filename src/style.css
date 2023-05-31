@@ -236,3 +236,165 @@ body{
 .footer__social a:not(:last-child) {
     margin-right: 25px;
 }
+
+
+/* thanh vien */
+
+body {
+    margin: 0px;
+}
+
+.department__name {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.member__boss {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.frame__profile {
+    width: 25%;
+    height: 30%;
+    margin-top: 100px;
+}
+
+.member__profile {
+    width: 20%;
+    height: 250px;
+    width: 187.5px;
+    text-align: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.reset__button {
+    all: initial;
+    height: 100%;
+    width: 100%;
+}
+
+.reset__button:hover {
+    cursor: pointer;
+    border-radius: 8px;
+    opacity: .7;
+}
+
+.member--img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px black;
+}
+
+.icon-fb {
+    color: black;
+    font-size: 50px; 
+    border: solid 5px rgba(1 ,1 ,1, 0);
+    border-radius: 90px;
+    position: relative;
+    background-color: white;
+    top: 5px;
+    right: 0px;
+
+}
+
+.icon-fb:hover {
+    color: rgba(1 ,1 ,1, 0.7);
+    cursor: pointer;
+}
+
+.name--member {
+    position: relative;
+    top: -65px;
+}
+
+.link-fb {
+    font-size: 0px; 
+    top: -100px;
+    right: -95px;
+    position: relative;
+    border: solid 5px ;
+    border-radius: 90px;
+    color: rgba(1 ,1 ,1, 0);
+
+}
+  
+
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;   
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(1 ,1 ,1, 0.4);
+    border-radius: 5px;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal--member {
+    height: 500px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 1);   
+}
+
+.info__header {
+    background-color: #B4CFEC;
+    height: 50px;
+    width: 100%;
+}
+
+.info__content {
+    display: flex;
+    width: 100%;
+}
+
+.info__image {
+    width: 30%;
+    height: 100%;
+}
+
+.info__img {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 300px;
+    width: 225px;
+}
+
+.close--button {
+    margin-left: 94%;
+    border: none;
+    background-color: #B4CFEC;
+}
+
+.close {
+    font-size: 40px;
+    color: black;
+}
+
+.close:hover {
+    color: red;
+}
+
+.info__text > ul{
+    color: white;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.info__text > ul > li {
+    margin-top: 15px;
+}
