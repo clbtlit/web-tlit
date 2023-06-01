@@ -24,9 +24,6 @@ body{
 .col-four{
     width: 25%;
 }
-.span-1-of-4 {
-    width: 23.8%;
-}
 .header{
     display: flex;
     align-items: center;
@@ -320,3 +317,4 @@ body{
 .footer__social a:not(:last-child) {
     margin-right: 25px;
 }
+
