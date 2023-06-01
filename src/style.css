@@ -18,9 +18,14 @@ body{
     padding-left: 8px;
     padding-right: 8px;
 }
-.col-half{
-    -webkit-box-flex: 0;
+.col-half {
     width: 50%;
+}
+.col-four{
+    width: 25%;
+}
+.span-1-of-4 {
+    width: 23.8%;
 }
 .header{
     display: flex;
@@ -112,12 +117,91 @@ body{
 
 /* bedin clb */
 .clb {
-
-
+    height: auto;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+.clb-image{
+    background-size: 100px;
+}
+.section-clb{
+    height: auto;
+    display: flex;
+}
+.even{
+    background-color: white;
+}
+.section-slider{
+    padding: 30px;
+}
+.clb-image{
+    height: 50%;
+    width: 90%;
+}
+.clb-image img{
+    position: relative;
+    left: 18%;
+    width: 100%;
+    object-fit: fill;
+}
+.section-text h1{
+    position: relative;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.section-text p{
+    position: relative;
+}
+.section-text{
+    padding-left: 100px;
+    display: grid;
+    align-content: center;
+    line-height: 1.6;
 }
 /* begin ban */
-.ban {
+.container-ban {
+    height: 500;
+    color: white;
+    background-color: #000a3d
+}
+.ban .header-ban {
+    display: grid;
+    justify-items: center; 
+    align-content: center;
+    padding: 50px 0;
+    color: white;
+    background-color: #000a3d
+}
+.container-ban .info-ban {
 
+    padding: 0 8px;
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.info-ban .name-ban {
+    display: grid;
+    justify-items: center; 
+    align-content: center;
+    padding: 20px 0;
+    margin-bottom: 5px;
+    color: #000a3d;
+    background-color: white;
+}
+.info-ban .content-ban {
+    color: #000a3d;
+    background-color: white;
+}
+.list-ban {
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* begin story */
+.story {
+    height: 100;
 }
 /* begon footer */
 .footer {
