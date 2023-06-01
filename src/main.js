@@ -4,7 +4,7 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         Infinite: true,
-        arrows: true,
+        arrows: false,
         autoplay: true,
         autoplaySpeed: 1500,
         prevArrow:"<button type='button' class='slick-prev stick-arrow'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
