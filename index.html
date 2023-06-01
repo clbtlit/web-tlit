@@ -183,26 +183,5 @@
                 </div>
             </div>
         </div>
-    <div>
-    <script>
-        const seeInfos = document.querySelectorAll('.js-infor-member')
-        const modal = document.querySelector('.js-modal')
-        const mclose = document.querySelector('.js-button-close')
-
-        function showInfoMember() {
-            modal.classList.add('open')
-        }
-
-        function hideInfoMember() {
-            modal.classList.remove('open')
-        }
-
-        for (const seeInfo of seeInfos) {
-            seeInfo.addEventListener('click', showInfoMember)
-        }
-
-        mclose.addEventListener('click', hideInfoMember)
-    </script>
 </body>
-
 </html>
