@@ -120,6 +120,9 @@ body{
     padding-bottom: 80px;
 }
 .clb-image{
+    margin-top: 90px;
+    height: 50%;
+    width: 90%;
     background-size: 100px;
 }
 .section-clb{
@@ -128,13 +131,6 @@ body{
 }
 .even{
     background-color: white;
-}
-.section-slider{
-    padding: 30px;
-}
-.clb-image{
-    height: 50%;
-    width: 90%;
 }
 .clb-image img{
     position: relative;
@@ -148,6 +144,7 @@ body{
     font-weight: 400;
 }
 .section-text p{
+    padding-right: 100px;
     position: relative;
 }
 .section-text{
@@ -158,24 +155,29 @@ body{
 }
 /* begin ban */
 .container-ban {
-    height: 500;
+    padding-bottom: 80px;
+    height: auto;
     color: white;
-    background-color: #000a3d
+    background-color: #f6f6f6;
 }
 .ban .header-ban {
     display: grid;
     justify-items: center; 
     align-content: center;
-    padding: 50px 0;
-    color: white;
-    background-color: #000a3d
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #000a3d;
+    background-color: #f6f6f6;
 }
 .container-ban .info-ban {
-
+    transition: all 0.3s;
     padding: 0 8px;
     width: 25%;
     margin-left: 10px;
     margin-right: 10px;
+}
+.info-ban:hover{
+    transform: translateY(-10px);
 }
 .info-ban .name-ban {
     display: grid;
@@ -185,10 +187,21 @@ body{
     margin-bottom: 5px;
     color: #000a3d;
     background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .info-ban .content-ban {
+    transition: all 0.3s linear;
+    cursor: pointer;
+    height: 365px;
+    word-spacing: 1.5px;
+    font-size: 18px;
+    line-height: 25px;
     color: #000a3d;
     background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
 }
 .list-ban {
     display: flex;
@@ -196,9 +209,143 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.content-ban {
+    padding: 20px 25px;
+}
+
+/* nội quy */
+.rules {
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../picture/tCHu/anh1.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.container-rules {
+    padding: 50px 100px;
+}
+.rules-title {
+    display: flex;
+    justify-content: center;
+    padding: 50px 180px;
+    font-size: 34px;
+    color: inherit;
+    text-decoration: none;
+}
+.rules-info {
+    padding-bottom: 50px;
+}
+
+.btn-rules {
+    margin-left: 550px;
+    border: 0;
+    background-color: #fff;
+    color: #060A52;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 45px;
+}
+.rules .btn-rules:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background-color: #D91E1E;
+    color: #fff;
+
+}
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../picture/tCHu/anh1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 11;
+    overflow: scroll;
+    display: none;
+}
+.modal-law--btn__close {
+    bottom: 50px;
+    right: 40px;
+    position: fixed;
+    transition: all 0.4s;
+    cursor: pointer;
+    border: 0;
+    background-color: #fff;
+    color: #060A52;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 45px;
+}
+.modal-law--btn__close:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background-color: #D91E1E;
+    color: #fff;
+}
+.modal-law--section__body {
+    margin-left: 150px;
+    margin-right: 220px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.open {
+    display: flex;
+}
+.modal_body {
+    color: #fff;
+    position: absolute;
+}
+.modal-law--section__header {
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    line-height: 200px;
+    font-size: 32px;
+    font-weight: 500;
+}
 /* begin story */
 .story {
-    height: 100;
+    height: auto;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+.story-image{
+    background-size: 100px;
+}
+.section-story{
+    height: auto;
+    display: flex;
+}
+
+.story-image{
+    height: 50%;
+    width: 90%;
+}
+.story-image img{
+    position: relative;
+    right: 5%;
+    width: 100%;
+    object-fit: fill;
+}
+.section-text h1{
+    position: relative;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.section-text p{
+    position: relative;
+}
+.section-text{
+    padding-left: 130px;
+    display: grid;
+    align-content: center;
+    line-height: 1.6;
 }
 /* begon footer */
 .footer {
@@ -300,6 +447,7 @@ body{
     flex-wrap: wrap;
 }
 .footer__copyright {
+    
     font-weight: 400;
     color: #5d6385;
     margin-bottom: 0;
