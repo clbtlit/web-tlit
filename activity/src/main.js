@@ -7,7 +7,7 @@ $(document).ready(function(){
         autoplaySpeed: 3000,
         infinite: true,
         arrows: true,
-        dots:true,
+        // dots:true,
         prevArrow:'<span class="prev-arrow"><i class="fa-solid fa-circle-chevron-left"></i></span>',
         nextArrow:'<span class="next-arrow"><i class="fa-solid fa-circle-chevron-right"></i></span>',
         responsive: [
@@ -17,7 +17,7 @@ $(document).ready(function(){
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
-            dots: true
+            // dots: true
             }
         },
         {
@@ -38,9 +38,6 @@ $(document).ready(function(){
             infinite:false
             }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
         ],
         
     });
