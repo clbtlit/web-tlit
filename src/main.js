@@ -6,7 +6,7 @@ $(document).ready(function(){
         Infinite: true,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 2000,
         prevArrow:"<button type='button' class='slick-prev stick-arrow'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
         nextArrow:"<button type='button' class='slick-next stick-arrow'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
     });

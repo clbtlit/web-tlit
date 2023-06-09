@@ -338,9 +338,9 @@ body{
     margin-bottom: 100px;
 }
 .section{
-    /* background-color: #f6f6f6; */
+    height: auto;
+    background-color: #f6f6f6;
     display: flex;
-    margin-top: 100px;
     padding-bottom: 20px;
 }
 .main-text h4{
