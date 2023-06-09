@@ -14,11 +14,11 @@ body{
     margin-left: -8px;
     margin-right: -8px;
 }
-.col{
+/* .col{
     float: left;
     padding-left: 8px;
     padding-right: 8px;
-}
+} */
 .col-half {
     width: 50%;
 }
@@ -349,10 +349,7 @@ body{
 .even{
     background: none;
 }
-.section-slider{
-    /* position: relative; */
-    margin-left:40px;
-}
+
 .slider-image{
     /* padding: 30px; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
