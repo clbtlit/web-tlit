@@ -42,7 +42,9 @@
     margin-left: 330px;
     text-align: right;
 }
-
+.nav-list .btn{
+    border: 0;
+}
 #nav .list> li{
     display: inline-block;
     padding:20px 0;
@@ -70,10 +72,6 @@
     text-decoration: none;
     line-height: 40px;
 }
-
-
-
-
 
 body {
     margin: 0px;
