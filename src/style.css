@@ -187,6 +187,7 @@
 
 /* nội quy */
 .rules {
+    margin: 130px;
     height: 500px;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../picture/tCHu/anh1.jpg);
     background-attachment: fixed;
@@ -210,7 +211,7 @@
 }
 
 .btn-rules {
-    margin-left: 550px;
+    margin-left: 430px;
     border: 0;
     background-color: #fff;
     color: #060A52;
