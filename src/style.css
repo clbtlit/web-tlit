@@ -30,7 +30,7 @@
 }
 .hearder-logo
 {
-    padding-left: 130px;
+    padding-left: 150px;
     display: block;
     cursor: pointer;
 }
@@ -40,8 +40,11 @@
 }
 #nav .list{
     float: left;
-    margin-left: 500px;
+    margin-left: 520px;
     text-align: right;
+}
+.btn {
+    transition: none;
 }
 
 #nav .list> li{
@@ -56,6 +59,8 @@
     letter-spacing: 2px;
 }
 #nav .list > li:hover a{
+    cursor: pointer;
+    transition: all 0.2s linear;
     border-bottom: 0;
     color: red;
     opacity: 0.6;
@@ -74,7 +79,7 @@
 
 /* begin slider */
 #slider {
-    padding-top: 49%;
+    padding-top: 47%;
     background: url('../picture/tCHu/slider.jpg') top center / cover no-repeat;
 }
 
@@ -82,8 +87,8 @@
 .clb {
     height: auto;
     position: relative;
-    padding-top: 25px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 130px;
 }
 .clb-image{
     margin-top: 150px;
