@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 150;
     src: local("Lato Regular"),local("Lato-Regular"),url("fonts/lato-v14-latin-regular.woff2") format("woff2"),url("fonts/lato-v14-latin-regular.woff") format("woff")
 }
 
@@ -137,10 +137,14 @@
     margin-top: 10px;
 }
 
+.container-fluid .row .image {
+    display: block;
+}
+
 .image {
     height: 400px;
     width: 3000px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
 
 
@@ -160,17 +164,28 @@
 
 .content .text p{
     margin: 0px;
+    text-align: left;
+    margin-left: 30px;
 }
 
 .content .author p , img {
     display: inline-block;
 }
 
+/* .content .author {
+    text-align: left;
+    margin-left: 50px;
+} */
+
 .content .text img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.content .text .author {
+    margin: 20px 0px 20px;
 }
 
 .content img {
