@@ -22,26 +22,29 @@
     width: 25%;
 }
 .header{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(255, 255, 255, 0.0));
+    position: fixed;
     padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: absolute;
 }
 .hearder-logo
 {
-    padding-left: 130px;
-    display: block;
-    cursor: pointer;
+    padding-left: 150px;
 }
 .logo--img {
     padding: 5 0 5;
     width: 70px;
 }
 #nav .list{
+    margin-right: 161px;
     float: left;
-    margin-left: 500px;
+    margin-left: 520px;
     text-align: right;
+}
+.btn {
+    transition: none;
 }
 
 #nav .list> li{
@@ -56,6 +59,8 @@
     letter-spacing: 2px;
 }
 #nav .list > li:hover a{
+    cursor: pointer;
+    transition: all 0.2s linear;
     border-bottom: 0;
     color: red;
     opacity: 0.6;
@@ -67,6 +72,7 @@
 }
 
 #nav .list li a{
+    position: relative;
     font-size: 15px;
     text-decoration: none;
     line-height: 40px;
@@ -74,16 +80,15 @@
 
 /* begin slider */
 #slider {
-    padding-top: 49%;
+    padding-top: 47%;
     background: url('../picture/tCHu/slider.jpg') top center / cover no-repeat;
 }
 
 /* bedin clb */
 .clb {
     height: auto;
-    position: relative;
-    padding-top: 25px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 130px;
 }
 .clb-image{
     margin-top: 150px;
@@ -95,23 +100,15 @@
     height: auto;
     display: flex;
 }
-.even{
-    background-color: white;
-}
+
 .clb-image img{
-    position: relative;
-    left: 18%;
+    margin-left: 120px;
     width: 100%;
     object-fit: fill;
 }
-.section-text h1{
-    position: relative;
-    margin-bottom: 10px;
-    font-weight: 400;
-}
+
 .section-text p{
     padding-right: 100px;
-    position: relative;
 }
 .section-text{
     padding-left: 100px;
@@ -182,6 +179,7 @@
 
 /* nội quy */
 .rules {
+    margin: 130px;
     height: 500px;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../picture/tCHu/anh1.jpg);
     background-attachment: fixed;
@@ -205,7 +203,7 @@
 }
 
 .btn-rules {
-    margin-left: 550px;
+    margin-left: 430px;
     border: 0;
     background-color: #fff;
     color: #060A52;
@@ -301,12 +299,8 @@
     object-fit: fill;
 }
 .section-text h1{
-    position: relative;
     margin-bottom: 10px;
     font-weight: 400;
-}
-.section-text p{
-    position: relative;
 }
 .section-text{
     padding-left: 130px;

@@ -17,7 +17,6 @@
     padding-right: 8px;
 }
 .col-half{
-    -webkit-box-flex: 0;
     width: 50%;
 }
 .header{
@@ -34,7 +33,7 @@
     cursor: pointer;
 }
 .logo--img {
-    padding: 5 0 5;
+    padding: 5px 0px 5px;
     width: 70px;
 }
 #nav .list{
@@ -42,10 +41,12 @@
     margin-left: 330px;
     text-align: right;
 }
-
+.nav-list .btn{
+    border: 0;
+}
 #nav .list> li{
     display: inline-block;
-    padding:20px 0;
+    padding:20px 0px;
     position: relative;
 }
 #nav .list> li> a{
@@ -62,21 +63,13 @@
 }
     
 #nav .list > li > a{
-    padding: 30 20;
+    padding: 30px 20px;
 }
 
 #nav .list li a{
     font-size: 15px;
     text-decoration: none;
     line-height: 40px;
-}
-
-
-
-
-
-body {
-    margin: 0px;
 }
 
 .department__name {
@@ -97,11 +90,11 @@ body {
 }
 
 .member__profile {
-    width: 20%;
-    height: 250px;
+    overflow: hidden;
+    height: 187.5px;
     width: 187.5px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 50%;
     box-sizing: border-box;
     margin: auto;
 }
@@ -125,40 +118,11 @@ body {
     border: solid 1px black;
 }
 
-.icon-fb {
-    color: black;
-    font-size: 50px; 
-    border: solid 5px rgba(1 ,1 ,1, 0);
-    border-radius: 90px;
-    position: relative;
-    background-color: white;
-    top: 5px;
-    right: 0px;
-
-}
-
-.icon-fb:hover {
-    color: rgba(1 ,1 ,1, 0.7);
-    cursor: pointer;
-}
 
 .name--member {
     position: relative;
-    top: -50px;
+    top: 20px;
 }
-
-.link-fb {
-    font-size: 0px; 
-    top: -100px;
-    right: -95px;
-    position: relative;
-    border: solid 5px ;
-    border-radius: 90px;
-    color: rgba(1 ,1 ,1, 0);
-
-}
-  
-
 
 
 .modal {
@@ -171,7 +135,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgba(1 ,1 ,1, 0.4);
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: #5d6385;
 }
 
 .modal.open {
@@ -179,7 +144,7 @@ body {
 }
 
 .modal--member {
-    height: 500px;
+    height: 460px;
     width: 800px;
     background-color: rgba(0, 0, 0, 1);   
 }
@@ -195,20 +160,28 @@ body {
     width: 100%;
 }
 
+.info__img {
+    margin: 50px 0 0 50px;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+
+}
+
 .info__image {
     width: 30%;
     height: 100%;
 }
 
-.info__img {
+/* .info__img {
     margin-top: 50px;
     margin-left: 50px;
     height: 300px;
     width: 225px;
-}
+} */
 
 .close--button {
-    margin-left: 94%;
+    margin-left: 96%;
     border: none;
     background-color: #B4CFEC;
 }
@@ -219,20 +192,48 @@ body {
 }
 
 .close:hover {
-    color: red;
+    color: red; 
 }
 
 .info__text > ul{
     color: white;
     font-size: 35px;
-    margin-top: 60px;
-    margin-left: 50px;
+    margin-top: 40px;
+    margin-left: 75px;
     list-style-type: none;
 }
 
 .info__text > ul > li {
     margin-top: 15px;
 }
+
+/* sap xep */
+
+
+.a {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.b {
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.c {
+    margin-bottom: 50px;
+    width: 33.333333%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .footer {
