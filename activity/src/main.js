@@ -1,12 +1,13 @@
 $(document).ready(function(){
     $('.section-slider').slick({
+        variableWidth: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         speed: 1000,
         autoplaySpeed: 3000,
         infinite: true,
-        // arrows: true,
+        arrows: true,
         // dots:true,
         prevArrow:'<span class="prev-arrow"><i class="fa-solid fa-circle-chevron-left"></i></span>',
         nextArrow:'<span class="next-arrow"><i class="fa-solid fa-circle-chevron-right"></i></span>',
@@ -17,7 +18,7 @@ $(document).ready(function(){
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
-            // dots: true
+            arrows: true
             }
         },
         {

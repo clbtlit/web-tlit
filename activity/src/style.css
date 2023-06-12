@@ -1,5 +1,3 @@
-
-
 *{
     padding: 0;
     margin: 0;
@@ -14,11 +12,11 @@ body{
     margin-left: -8px;
     margin-right: -8px;
 }
-/* .col{
+.col{
     float: left;
     padding-left: 8px;
     padding-right: 8px;
-} */
+}
 .col-half {
     width: 50%;
 }
@@ -337,11 +335,18 @@ body{
     position: relative;
     margin-bottom: 100px;
 }
-.section{
-    height: auto;
-    background-color: #f6f6f6;
+.section-odd{
     display: flex;
+    margin-top: 100px;
     padding-bottom: 20px;
+}
+.section-even{
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+.section-even .section-text{
+    margin-left: 40px;
 }
 .main-text h4{
     font-size: 20px;
@@ -349,15 +354,23 @@ body{
 .even{
     background: none;
 }
-
+.section-slider{
+    /* position: relative; */
+    margin-left:40px;
+}
 .slider-image{
+    width: auto;
     /* padding: 30px; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     
 }
+.slick-slide {
+    /* width: 100%; */
+
+}
 .slider-image img{
     width: 100%;
-    height: 604px;
+    height: 584px;
     object-fit: cover;
 }
 .section-text h2{
