@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $('.section-slider').slick({
-        variableWidth: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
@@ -18,6 +17,7 @@ $(document).ready(function(){
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
+            mobileFirst:true,
             arrows: true
             }
         },
@@ -27,6 +27,7 @@ $(document).ready(function(){
             slidesToShow: 1,
             slidesToScroll: 1,
             dots:true,
+            mobileFirst:true,
             infinite:true
             }
         },
@@ -36,6 +37,7 @@ $(document).ready(function(){
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows:false,
+            mobileFirst:true,
             infinite:false
             }
         }
