@@ -260,6 +260,7 @@ h2 {
 
 
 .footer {
+    position: relative;
     top: 120px;
     margin-top: 200px;
     z-index: 5;
