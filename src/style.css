@@ -31,16 +31,14 @@
 }
 .hearder-logo
 {
-    padding-left: 150px;
+    /* padding-left: 150px; */
 }
 .logo--img {
     padding: 5 0 5;
     width: 70px;
 }
 #nav .list{
-    margin-right: 161px;
     float: left;
-    margin-left: 520px;
     text-align: right;
 }
 .btn {
