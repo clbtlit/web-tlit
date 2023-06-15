@@ -102,8 +102,6 @@ body {
     flex-wrap: wrap;
 }
 
-
-
 h2 {
     color: white;
 }
@@ -175,7 +173,7 @@ h2 {
 .modal--member {
     height: 460px;
     width: 800px;
-    background-image: url('./photo/back-img.jpg');
+    background-image: url('./photo/z4435375596088_7c072a2dc2e8cc9a13124242f7285afa.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -197,11 +195,11 @@ h2 {
 }
 
 .info__image {
-    margin: 50px 0 0 50px;
+    margin: 7px 0 0 87px;
     border-radius: 50%;
     overflow: hidden;
-    width: 250px;
-    height: 250px;
+    width: 123px;
+    height: 123px;
 }
 
 .close--button {
@@ -220,11 +218,11 @@ h2 {
 }
 
 .info__text > ul{
-    color: white;
-    font-size: 35px;
-    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 36px;
     margin-left: 75px;
-    list-style-type: none;
+
 }
 
 .info__text > ul > li {
@@ -248,9 +246,30 @@ h2 {
     width: 33.333333%;
 }
 
+.sup-infor {
+    font-size: 25px;
+}
 
+.li-name {
+    list-style-type: none;
+    background-image: linear-gradient(to right, rgb(31, 30, 30), rgba(184, 119, 35, 1));
+    margin-left: -32px;
+    height: 93px;
+    width: 483px;
+}
 
+.name {
+    color: white;
+    top: 10px;
+    margin-left: 30px;
+    font-size: 30px;
+}
 
+.student-code {
+    color: white;
+    margin-left: 30px;
+    font-size: 14px;
+}
 
 
 
@@ -260,7 +279,7 @@ h2 {
 
 
 .footer {
-    position: relative;
+
     top: 120px;
     margin-top: 200px;
     z-index: 5;
