@@ -13,27 +13,31 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="hearder-logo">
-            <img class="logo--img" src="../picture/tCHu/logo_clb.png" alt="logo">
-        </div>
-        <div id="nav">
-            <div class="nav-list btn">
-                <ul class="list">
-                    <li><a href="../index.html">Trang Chủ</a></li>
-                    <li><a href="../member/index.html">Thành Viên</a></li>
-                    <li><a href="../activity/index.html">Hoạt Động</a></li>
-                    <li><a href="#">Sản Phẩm</a></li>
-                </ul>
+    <!-- header -->
+    <div class="header navbar navbar-expand-lg">
+        <div class="container">
+            <div class="hearder-logo navbar-brand">
+                <img class="logo--img" src="../picture/tCHu/logo_clb.png" alt="logo">
             </div>
-
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="nav">
+                <div class="nav-list btn">
+                    <ul class="list navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Trang Chủ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../member/index.html">Thành Viên</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Hoạt Động</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../product/index.html">Sản Phẩm</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
     </div>
-
-
-
+    <!-- end header -->
     <div class= "container-fluid">
-     
         <div class= "row">
             <div class ="col-12 col-sm-6 col-md-4 image">
                 <div class="content">
@@ -134,18 +138,15 @@
         </div>
     </div>
         
-    
-   
-
-   
-    < <div class="footer">
+    <!-- footer -->
+    <div class="footer">
         <div class="container">
             <div class="footer__content">
                 <div class="row">
-                    <div class="footer__logo col col-half">
+                    <div class="footer__logo col-12 col-sm-12 col-lg-6">
                         <a href="#">ThangLong Information Technology Club</a>
                     </div>
-                    <div class="col col-half">
+                    <div class="col-12 col-sm-12 col-lg-6">
                         <div class="footer__social">
                             <a href="https://www.facebook.com/CLB.TinHoc.TLU">
                                 <img src="https://thanglong.edu.vn/themes/md_tlu/img/icon/icon-facebook.svg">
@@ -157,15 +158,15 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col col-half">
+                    <div class="col-12 col-sm-12 col-lg-6">
                         <ul class="footer-list">
                             <li><a href="../index.html">Trang Chủ</a></li>
                             <li><a href="../member/index.html">Thành Viên</a></li>
-                            <li><a href="../activity/index.html">Hoạt Động</a></li>
-                            <li><a href="#">Sản Phẩm Câu Lạc Bộ</a></li>
+                            <li><a href="#">Hoạt Động</a></li>
+                            <li><a href="../product/index.html">Sản Phẩm Câu Lạc Bộ</a></li>
                         </ul>
                     </div>
-                    <div class="col col-half">
+                    <div class="col-12 col-sm-12 col-lg-6">
                         <div class="footer__contact">
                             <ul>
                                 <li>
@@ -193,7 +194,7 @@
             </div>
             <div class="footer__footer">
                 <div class="row">
-                    <div class="col col-half order-1">
+                    <div class="col-12 col-sm-12 col-lg-6 order-1">
                         <p class="footer__copyright">Copyright © 2021 ThangLong Information Technology Club. All rights
                             reserved.</p>
                     </div>
@@ -201,6 +202,7 @@
             </div>
         </div>
     </div>
+    <!-- end footer -->
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
 </body>
