@@ -562,10 +562,8 @@ body{
     .section-text h4 {
         margin-bottom: 15px;
         position: relative;
-        text-align: center;
     }
     .section-text p{
-        text-align: center;
     }
     body {	
         background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A );
@@ -642,15 +640,14 @@ body{
         text-align: center;
         margin-top: 20px;
         font-size: 20px;
+        top: -20%;
     }
     .section-text h4 {
         margin-bottom: 15px;
         position: relative;
-        text-align: center;
         font-size: 15px;
     }
     .section-text p{
-        text-align: center;
         font-size: 12px;
     }
     body {	
