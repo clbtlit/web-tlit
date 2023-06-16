@@ -6,6 +6,9 @@
     font-family: Geneva, Tahoma, sans-serif;;
     scroll-behavior: smooth;
 }
+.color-black{
+    color: #000!important;
+}
 .row{
     margin-left: -8px;
     margin-right: -8px;
@@ -22,16 +25,17 @@
     width: 25%;
 }
 .header{
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(255, 255, 255, 0.0));
+    /* background-image: linear-gradient(rgba(0,0,0,0.8), rgba(255, 255, 255, 0.0)); */
     position: fixed;
-    padding: 15px 0;
+    /* padding: 15px 0; */
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 .hearder-logo
 {
-    /* padding-left: 150px; */
+    
 }
 .logo--img {
     padding: 5 0 5;
@@ -47,7 +51,6 @@
 
 #nav .list> li{
     display: inline-block;
-    padding:20px 0;
     position: relative;
 }
 #nav .list> li> a{

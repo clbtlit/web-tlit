@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+$(document).ready(function () {
     $('.image-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -7,7 +7,10 @@ $(document).ready(function(){
         arrows: false,
         autoplay: true,
         autoplaySpeed: 2000,
-        prevArrow:"<button type='button' class='slick-prev stick-arrow'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-        nextArrow:"<button type='button' class='slick-next stick-arrow'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+        prevArrow: "<button type='button' class='slick-prev stick-arrow'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow: "<button type='button' class='slick-next stick-arrow'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
     });
-  });
+});
+
+var header = document.querySelector('.header')
+console.log(header)

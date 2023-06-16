@@ -399,6 +399,22 @@
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./src/main.js"></script>
+    <script>
+        var header = document.querySelector('.header')
+            window.addEventListener('scroll', function () {
+                
+
+                if (window.scrollY > 100) {
+                    header.classList.add('fixed-top')
+                    header.classList.add('bg-light')
+                    header.classList.add('shadow-sm')
+                } else {
+                    header.classList.remove('fixed-top')
+                    header.classList.remove('shadow-sm')
+                    header.classList.remove('bg-light')
+                }
+            });
+    </script>
 </body>
 
 </html>
