@@ -11,11 +11,6 @@
     margin-left: -8px;
     margin-right: -8px;
 }
-/* .col{
-    float: left;
-    padding-left: 8px;
-    padding-right: 8px;
-} */
 .col-half {
     -webkit-box-flex: 0;
     width: 50%;
@@ -85,6 +80,9 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     display: block;
+}
+
+.back__img {
     margin: 0 120px;
 }
 
@@ -161,9 +159,8 @@ h2 {
     display: none;
     align-items: center;
     justify-content: center;
-    background-color: rgba(1 ,1 ,1, 0.4);
+    background-color: rgba(1 ,1 ,1, 0.6);
     border-radius: 10px;
-    box-shadow: #5d6385;
 }
 
 .modal.open {
@@ -175,13 +172,9 @@ h2 {
     width: 800px;
     background-image: url('./photo/z4435375596088_7c072a2dc2e8cc9a13124242f7285afa.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.info__header {
-    background-color: #6c2600;
-    height: 50px;
-    width: 100%;
+    background-size: 120%;
+    border-radius: 20px;
+    box-shadow: 10px 15px rgba(139, 134, 134, 0.7);
 }
 
 .info__content {
@@ -195,17 +188,19 @@ h2 {
 }
 
 .info__image {
-    margin: 7px 0 0 87px;
+    margin: 10px 0 0 93px;
     border-radius: 50%;
     overflow: hidden;
-    width: 123px;
-    height: 123px;
+    width: 176px;
+    height: 176px;
 }
 
 .close--button {
-    margin-left: 96%;
+    margin-top: 6px;
+    margin-left: 95%;
     border: none;
-    background-color: #6c2600;
+    background-color: #e3e2e2;
+    border-radius: 90%;
 }
 
 .close {
@@ -217,19 +212,24 @@ h2 {
     color: rgba(1 ,1 ,1, 0.7); 
 }
 
+.info__text {
+    margin-top:-6px;
+}
+
 .info__text > ul{
     color: rgb(0, 0, 0);
     font-size: 30px;
-    margin-top: 36px;
+    margin-top: 73px;
     margin-left: 75px;
 
 }
 
 .info__text > ul > li {
     margin-top: 15px;
+    list-style-type: none;
 }
 
-/* sap xep */
+/* bo sung */
 
 
 .a {
@@ -251,16 +251,15 @@ h2 {
 }
 
 .li-name {
-    list-style-type: none;
     background-image: linear-gradient(to right, rgb(31, 30, 30), rgba(184, 119, 35, 1));
-    margin-left: -32px;
+    margin-left: -41px;
     height: 93px;
-    width: 483px;
+    width: 497px;
 }
 
 .name {
     color: white;
-    top: 10px;
+    margin-top: 72px;
     margin-left: 30px;
     font-size: 30px;
 }
@@ -268,15 +267,21 @@ h2 {
 .student-code {
     color: white;
     margin-left: 30px;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+.fa-location-dot {
+    margin-left: 6px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 740px){
+
 }
 
 
-
-
-
-
-
+/* start footer */
 
 .footer {
 

@@ -268,21 +268,6 @@ for (const seeInfo17 of seeInfos17) {
 mclose17.addEventListener('click', hideInfoMember17)
 
 
-const seeInfos18 = document.querySelectorAll('.js-infor-member18')
-const modal18 = document.querySelector('.js-modal18')
-const mclose18 = document.querySelector('.js-button-close18')
-function showInfoMember18() {
-    modal18.classList.add('open')
-}
-function hideInfoMember18() {
-    modal18.classList.remove('open')
-}
-for (const seeInfo18 of seeInfos18) {
-    seeInfo18.addEventListener('click', showInfoMember18)
-}
-mclose18.addEventListener('click', hideInfoMember18)
-
-
 const seeInfos19 = document.querySelectorAll('.js-infor-member19')
 const modal19 = document.querySelector('.js-modal19')
 const mclose19 = document.querySelector('.js-button-close19')
@@ -311,35 +296,6 @@ for (const seeInfo20 of seeInfos20) {
     seeInfo20.addEventListener('click', showInfoMember20)
 }
 mclose20.addEventListener('click', hideInfoMember20)
-
-const seeInfos21 = document.querySelectorAll('.js-infor-member21')
-const modal21 = document.querySelector('.js-modal21')
-const mclose21 = document.querySelector('.js-button-close21')
-function showInfoMember21() {
-    modal21.classList.add('open')
-}
-function hideInfoMember21() {
-    modal21.classList.remove('open')
-}
-for (const seeInfo21 of seeInfos21) {
-    seeInfo21.addEventListener('click', showInfoMember21)
-}
-mclose21.addEventListener('click', hideInfoMember21)
-
-
-const seeInfos22 = document.querySelectorAll('.js-infor-member22')
-const modal22 = document.querySelector('.js-modal22')
-const mclose22 = document.querySelector('.js-button-close22')
-function showInfoMember22() {
-    modal22.classList.add('open')
-}
-function hideInfoMember22() {
-    modal22.classList.remove('open')
-}
-for (const seeInfo22 of seeInfos22) {
-    seeInfo22.addEventListener('click', showInfoMember22)
-}
-mclose22.addEventListener('click', hideInfoMember22)
 
 
 const seeInfos23 = document.querySelectorAll('.js-infor-member23')
@@ -400,21 +356,6 @@ for (const seeInfo26 of seeInfos26) {
     seeInfo26.addEventListener('click', showInfoMember26)
 }
 mclose26.addEventListener('click', hideInfoMember26)
-
-
-const seeInfos27 = document.querySelectorAll('.js-infor-member27')
-const modal27 = document.querySelector('.js-modal27')
-const mclose27 = document.querySelector('.js-button-close27')
-function showInfoMember27() {
-    modal27.classList.add('open')
-}
-function hideInfoMember27() {
-    modal27.classList.remove('open')
-}
-for (const seeInfo27 of seeInfos27) {
-    seeInfo27.addEventListener('click', showInfoMember27)
-}
-mclose27.addEventListener('click', hideInfoMember27)
 
 
 const seeInfos28 = document.querySelectorAll('.js-infor-member28')
@@ -490,21 +431,6 @@ for (const seeInfo32 of seeInfos32) {
     seeInfo32.addEventListener('click', showInfoMember32)
 }
 mclose32.addEventListener('click', hideInfoMember32)
-
-
-const seeInfos33 = document.querySelectorAll('.js-infor-member33')
-const modal33 = document.querySelector('.js-modal33')
-const mclose33 = document.querySelector('.js-button-close33')
-function showInfoMember33() {
-    modal33.classList.add('open')
-}
-function hideInfoMember33() {
-    modal33.classList.remove('open')
-}
-for (const seeInfo33 of seeInfos33) {
-    seeInfo33.addEventListener('click', showInfoMember33)
-}
-mclose33.addEventListener('click', hideInfoMember33)
 
 
 const seeInfos34 = document.querySelectorAll('.js-infor-member34')
@@ -657,21 +583,6 @@ for (const seeInfo43 of seeInfos43) {
 mclose43.addEventListener('click', hideInfoMember43)
 
 
-const seeInfos44 = document.querySelectorAll('.js-infor-member44')
-const modal44 = document.querySelector('.js-modal44')
-const mclose44 = document.querySelector('.js-button-close44')
-function showInfoMember44() {
-    modal44.classList.add('open')
-}
-function hideInfoMember44() {
-    modal44.classList.remove('open')
-}
-for (const seeInfo44 of seeInfos44) {
-    seeInfo44.addEventListener('click', showInfoMember44)
-}
-mclose44.addEventListener('click', hideInfoMember44)
-
-
 const seeInfos45 = document.querySelectorAll('.js-infor-member45')
 const modal45 = document.querySelector('.js-modal45')
 const mclose45 = document.querySelector('.js-button-close45')
@@ -685,21 +596,6 @@ for (const seeInfo45 of seeInfos45) {
     seeInfo45.addEventListener('click', showInfoMember45)
 }
 mclose45.addEventListener('click', hideInfoMember45)
-
-
-const seeInfos46 = document.querySelectorAll('.js-infor-member46')
-const modal46 = document.querySelector('.js-modal46')
-const mclose46 = document.querySelector('.js-button-close46')
-function showInfoMember46() {
-    modal46.classList.add('open')
-}
-function hideInfoMember46() {
-    modal46.classList.remove('open')
-}
-for (const seeInfo46 of seeInfos46) {
-    seeInfo46.addEventListener('click', showInfoMember46)
-}
-mclose46.addEventListener('click', hideInfoMember46)
 
 
 const seeInfos47 = document.querySelectorAll('.js-infor-member47')
@@ -835,21 +731,6 @@ for (const seeInfo55 of seeInfos55) {
     seeInfo55.addEventListener('click', showInfoMember55)
 }
 mclose55.addEventListener('click', hideInfoMember55)
-
-
-const seeInfos56 = document.querySelectorAll('.js-infor-member56')
-const modal56 = document.querySelector('.js-modal56')
-const mclose56 = document.querySelector('.js-button-close56')
-function showInfoMember56() {
-    modal56.classList.add('open')
-}
-function hideInfoMember56() {
-    modal56.classList.remove('open')
-}
-for (const seeInfo56 of seeInfos56) {
-    seeInfo56.addEventListener('click', showInfoMember56)
-}
-mclose56.addEventListener('click', hideInfoMember56)
 
 
 const seeInfos57 = document.querySelectorAll('.js-infor-member57')
