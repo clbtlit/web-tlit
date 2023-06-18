@@ -5,7 +5,6 @@
         padding: 15px 0;
         display: flex;
         align-items: normal; 
-        position: inherit !important;
         overflow: hidden;
     }
     .hearder-logo {
@@ -56,10 +55,9 @@
         width: 70px;
     }
     #slider{
-        padding-top: 60%;
+        padding-top: 69%;
     }
     .clb-image img {
-        position: relative;
         left: 3%;
         width: 95%;
         object-fit: fill;
@@ -74,14 +72,12 @@
     .section-text p {
         font-size: 12px;
         padding-right: 0px;
-        position: relative;
     }
     .section-clb .col-half{
         width: 100%;
     }
     .section-text h1 {
         font-size: 28px;
-        position: relative;
         margin-bottom: 0px;
         font-weight: 550;
         padding-top: 40px;
