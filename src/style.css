@@ -22,23 +22,35 @@
     width: 25%;
 }
 .header{
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(255, 255, 255, 0.0));
-    position: fixed;
+    width: 100%;
     padding: 15px 0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    position: fixed;
+}
+.header .container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .mobile-menu-btn{
+    float: right;
 }
 .hearder-logo
 {
-    /* padding-left: 150px; */
+    padding-left: 110px;
+    display: block;
+    cursor: pointer;
 }
 .logo--img {
-    padding: 5 0 5;
+    padding: 15px 0;
     width: 70px;
 }
 #nav .list{
+    padding: 3px 0;
     float: left;
+    margin-left: 600px;
     text-align: right;
 }
 .btn {
@@ -51,6 +63,7 @@
     position: relative;
 }
 #nav .list> li> a{
+    padding: 30 18;
     color: #fff;
     font-weight: 550;
     text-transform: uppercase;
@@ -59,23 +72,36 @@
 #nav .list > li:hover a{
     cursor: pointer;
     transition: all 0.2s linear;
-    border-bottom: 0;
     color: red;
     opacity: 0.6;
     filter: alpha(opacity=30);
 }
-    
-#nav .list > li > a{
-    padding: 30 20;
-}
 
 #nav .list li a{
-    position: relative;
     font-size: 15px;
     text-decoration: none;
     line-height: 40px;
 }
-
+.far, .fa-regular {
+    font-weight: 600;
+}
+.mobile-menu-btn{
+    display: none;
+}
+.open1{
+    display: block !important;
+}
+.bg-light {
+    --bs-light-rgb: 248,249,250;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.color-black{
+    color: #000a3d !important;
+}
 /* begin slider */
 #slider {
     padding-top: 47%;
@@ -89,7 +115,7 @@
     padding-bottom: 130px;
 }
 .clb-image{
-    margin-top: 150px;
+    margin-top: 110px;
     height: 50%;
     width: 90%;
     background-size: 100px;
@@ -100,16 +126,19 @@
 }
 
 .clb-image img{
-    margin-left: 120px;
     width: 100%;
     object-fit: fill;
+    margin-left: 90px;
 }
-
+.section-text h1{
+    margin-bottom: 10px;
+    font-weight: 400;
+}
 .section-text p{
     padding-right: 100px;
 }
 .section-text{
-    padding-left: 100px;
+    padding-left: 130px;
     display: grid;
     align-content: center;
     line-height: 1.6;
@@ -197,7 +226,7 @@
     text-decoration: none;
 }
 .rules-info {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .btn-rules {
@@ -205,10 +234,10 @@
     border: 0;
     background-color: #fff;
     color: #060A52;
-    font-size: 18px;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 45px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 20px;
 }
 .rules .btn-rules:hover {
     cursor: pointer;
@@ -239,10 +268,10 @@
     border: 0;
     background-color: #fff;
     color: #060A52;
-    font-size: 18px;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 45px;
+    font-size: 16px;
+    height: 55px;
+    line-height: 55px;
+    padding: 0px 30px;
 }
 .modal-law--btn__close:hover {
     cursor: pointer;
@@ -296,16 +325,6 @@
     width: 100%;
     object-fit: fill;
 }
-.section-text h1{
-    margin-bottom: 10px;
-    font-weight: 400;
-}
-.section-text{
-    padding-left: 130px;
-    display: grid;
-    align-content: center;
-    line-height: 1.6;
-}
 /* begon footer */
 .footer {
     position: relative;
@@ -314,7 +333,7 @@
     font-size: 15px;
     height: auto;
 }
-.container {
+.footer .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-left: 135px;

@@ -27,7 +27,6 @@ body{
     align-items: center;
     z-index: 10;
     background-color: transparent;
-    position: relative;
     justify-content: space-evenly;
 }
 .hearder-logo
