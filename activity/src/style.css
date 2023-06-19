@@ -390,7 +390,7 @@ body{
     margin-top: 500px;
     color: #ffffff;
     font-size: 21px;
-    background-color: #00abe7;
+    background-color: rgb(31,121,121);
     height: 106px;
     width: 94px;
     text-align: center;
@@ -415,7 +415,7 @@ body{
     margin-top: 500px;
     color: #ffffff;
     font-size: 21px;
-    background-color: #00abe7;
+    background-color: rgb(31,121,121);
     height: 106px;
     width: 94px;
     text-align: center;
@@ -513,7 +513,7 @@ body{
         transform: scale(0.88);
         color: #ffffff;
         font-size: 21px;
-        background-color: #00abe7;
+        background-color:rgb(31,121,121);
         height: 106px;
         width: 94px;
         text-align: center;
@@ -531,7 +531,7 @@ body{
         transform: scale(0.88);
         color: #ffffff;
         font-size: 21px;
-        background-color: #00abe7;
+        background-color: rgb(31,121,121);
         height: 106px;
         width: 94px;
         text-align: center;
