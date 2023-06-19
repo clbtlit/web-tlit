@@ -50,7 +50,7 @@
 #nav .list{
     padding: 3px 0;
     float: left;
-    margin-left: 600px;
+    margin-left: 660px;
     text-align: right;
 }
 .btn {
@@ -63,7 +63,7 @@
     position: relative;
 }
 #nav .list> li> a{
-    padding: 30 18;
+    padding: 30 16;
     color: #fff;
     font-weight: 550;
     text-transform: uppercase;

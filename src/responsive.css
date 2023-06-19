@@ -115,8 +115,14 @@
         height: 90px;
     }
     .rules {
+        background-attachment: inherit;
+        background-size: 342%;
+        background-position-x: center;
         margin: 50px;
         height: 530px;
+    }
+    .modal {
+        background-position-x: center;
     }
     .container-rules {
         padding: 35px 35px;
