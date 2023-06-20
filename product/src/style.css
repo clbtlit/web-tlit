@@ -67,7 +67,6 @@ body{
     letter-spacing: 2px;
 }
 #nav .list > li:hover a{
-    border-bottom: 2px solid red;
     color: red;
     opacity: 0.6;
     filter: alpha(opacity=30);
