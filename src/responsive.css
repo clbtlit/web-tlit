@@ -22,7 +22,7 @@
         display: none;
     }
     #nav .list {
-        padding: 15px 0;
+        padding: 7px 0;
         float: 0;
         margin-left: 0;
         text-align: center;
@@ -39,6 +39,7 @@
     }
     #nav .list> li> a{
         color: 000a3d;
+        font-weight: 500;
     }
     .fas, .fa-bars {
         border-radius: 5px;
