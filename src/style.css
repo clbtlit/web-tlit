@@ -10,39 +10,40 @@
     margin-left: -8px;
     margin-right: -8px;
 }
-.col{
+/* .col{
     float: left;
     padding-left: 8px;
     padding-right: 8px;
 }
 .col-half {
     width: 50%;
-}
+} */
 .col-four{
     width: 25%;
 }
 .header{
     width: 100%;
-    padding: 15px 0;
+    /* padding: 15px 0; */
     display: flex;
     align-items: center;
     position: fixed;
+    z-index: 10;
 }
-.header .container{
+/* .header .container{
     display: flex;
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between;
-}
-.header .mobile-menu-btn{
+} */
+/* .header .mobile-menu-btn{
     float: right;
-}
-.hearder-logo
+} */
+/* .hearder-logo
 {
     padding-left: 110px;
     display: block;
     cursor: pointer;
-}
+} */
 .logo--img {
     padding: 15px 0;
     width: 70px;
@@ -50,16 +51,16 @@
 #nav .list{
     padding: 3px 0;
     float: left;
-    margin-left: 660px;
-    text-align: right;
+    /* margin-left: 660px; */
+    /* text-align: right; */
 }
-.btn {
+/* .btn {
     transition: none;
-}
+} */
 
 #nav .list> li{
     display: inline-block;
-    padding:20px 0;
+    padding:10px 0;
     position: relative;
 }
 #nav .list> li> a{
@@ -80,7 +81,7 @@
 #nav .list li a{
     font-size: 15px;
     text-decoration: none;
-    line-height: 40px;
+    /* line-height: 40px; */
 }
 .far, .fa-regular {
     font-weight: 600;
@@ -230,7 +231,7 @@
 }
 
 .btn-rules {
-    margin-left: 430px;
+    margin: 0 auto;
     border: 0;
     background-color: #fff;
     color: #060A52;
@@ -333,12 +334,12 @@
     font-size: 15px;
     height: auto;
 }
-.footer .container {
+/* .footer .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-left: 135px;
     margin-right: 135px;
-}
+} */
 .footer__content {
     color: #9a99b8;
     padding: 60px 0;
